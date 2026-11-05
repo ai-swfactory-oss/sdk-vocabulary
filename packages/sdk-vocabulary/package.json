@@ -1,0 +1,33 @@
+{
+  "name": "@ai-swfactory-oss/sdk-vocabulary",
+  "description": "The SDK-level vocabulary every SDK uses: failure categories, retry hints, progress events and cancellation helpers. Pure types and functions.",
+  "version": "0.0.0",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ai-swfactory-oss/sdk-vocabulary.git",
+    "directory": "packages/sdk-vocabulary"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "source": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "src",
+    "!dist/**/*.tgz"
+  ],
+  "devDependencies": {
+    "@types/node": "^24.0.0"
+  }
+}

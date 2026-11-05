@@ -1,0 +1,16 @@
+{
+  "name": "sdk-vocabulary-monorepo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "license": "MIT",
+  "description": "sdk-vocabulary workspace: the SDK-level vocabulary every SDK uses.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ai-swfactory-oss/sdk-vocabulary.git"
+  },
+  "packageManager": "pnpm@10.32.1",
+  "devDependencies": {
+    "@types/node": "^24.0.0"
+  }
+}
