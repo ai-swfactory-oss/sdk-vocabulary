@@ -1,8 +1,8 @@
 # sdk-vocabulary
 
-The SDK-level vocabulary every SDK uses: failure categories, retry hints, progress events and cancellation helpers. It is pure types and functions, with no side effects.
+The SDK-level vocabulary every SDK uses: failure categories, failures, retry hints and JSON values as data, with pure guards over them (`isFailureCategory`, `isFailure`, `isRetryHint`, `isJsonValue`). It has no side effects and takes no ports.
 
-The code arrives by migration from `ai-swfactory/seams`; this repository currently holds only its guarded skeleton.
+A `Failure` says whether it is `retryable`, and a `RetryHint` carries `minimumWaitMs`, the shortest wait before a retry.
 
 ## Packages
 
