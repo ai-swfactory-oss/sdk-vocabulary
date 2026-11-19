@@ -1,7 +1,7 @@
 {
   "name": "@ai-swfactory-oss/sdk-vocabulary",
   "description": "The SDK-level vocabulary every SDK uses: failure categories, failures, retry hints and JSON values as data, with pure guards over them.",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "license": "MIT",
   "repository": {
